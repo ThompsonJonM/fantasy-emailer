@@ -1,0 +1,58 @@
+{{define "base"}}
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+            Pendo Fantasy Football Digest
+        </title>
+        {{template "style" .}}
+    </head>
+    <body>
+    <table class="wrapper">
+        <tbody>
+        <tr>
+            <td class="header">
+               {{template "title" .}}
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+                {{template "introduction" .}}
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+                {{template "tweets" .}}
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+                {{template "images" .}}
+            </td>
+        </tr>
+        <tr>
+            <td class="content">
+                {{template "notes" .}}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="wrapper">
+        <tbody>
+        <tr>
+            <td class="footer">
+                <div>
+                    <br>
+                    <br>
+                    <i>This is an automated e-mail created using Go</i>.
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    </body>
+    </html>
+
+{{end}}

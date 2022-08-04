@@ -1,0 +1,13 @@
+{{define "tweet"}}
+
+    <h3>
+        {{.Header}}
+    </h3>
+    {{range .Content}}
+        <p>{{.}}</p>
+    {{end}}
+    <br>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">{{range .Link.Content}}{{.}}{{end}}</p>&mdash; {{.Link.Author}} <a href={{.Link.TweetLink}}>{{.Link.Date}}</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br>
+
+{{end}}

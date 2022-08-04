@@ -1,0 +1,17 @@
+{{define "introduction"}}
+    <div>
+        <h1>
+            {{.Introduction.Header}}
+        </h1>
+        <hr>
+        <h2 class="subHeader">
+            {{.Introduction.Subheader}}
+        </h2>
+        <p>
+            Hey {{.Introduction.Name}}, here's another issue of the Pendo Fantasy Digest.
+        </p>
+        {{range .Introduction.Content}}
+            <p>{{.}}</p>
+        {{end}}
+    </div>
+{{end}}

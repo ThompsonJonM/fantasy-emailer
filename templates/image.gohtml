@@ -1,0 +1,13 @@
+{{define "image"}}
+
+    <h3>
+        {{.Header}}
+    </h3>
+    {{if .Image}}
+        <img class="image" src={{.ImageLink}}>
+    {{end}}
+    {{range .Content}}
+        <p>{{.}}</p>
+    {{end}}
+
+{{end}}

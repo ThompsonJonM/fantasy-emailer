@@ -1,0 +1,10 @@
+{{define "note"}}
+
+    <h3>
+        {{.Header}}
+    </h3>
+    {{range .Content}}
+        <p>{{.}}</p>
+    {{end}}
+
+{{end}}
