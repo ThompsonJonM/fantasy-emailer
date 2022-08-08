@@ -1,8 +1,8 @@
-package src
+package sorting
 
 import (
 	"fmt"
-	"github.com/ThompsonJonM/fantasy-emailer/src/players"
+	"github.com/ThompsonJonM/fantasy-emailer/src/players/players"
 	"math/rand"
 	"time"
 )

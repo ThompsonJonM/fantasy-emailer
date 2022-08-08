@@ -1,9 +1,9 @@
-package src
+package email
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/ThompsonJonM/fantasy-emailer/src/players"
+	"github.com/ThompsonJonM/fantasy-emailer/src/players/players"
 	"html/template"
 	"log"
 	"net/smtp"
