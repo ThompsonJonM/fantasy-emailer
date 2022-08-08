@@ -3,7 +3,7 @@ package email
 import (
 	"bytes"
 	"fmt"
-	"github.com/ThompsonJonM/fantasy-emailer/src/players/players"
+	"github.com/ThompsonJonM/fantasy-emailer/m/v2/src/players"
 	"html/template"
 	"log"
 	"net/smtp"

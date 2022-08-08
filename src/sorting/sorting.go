@@ -2,7 +2,7 @@ package sorting
 
 import (
 	"fmt"
-	"github.com/ThompsonJonM/fantasy-emailer/src/players/players"
+	"github.com/ThompsonJonM/fantasy-emailer/m/v2/src/players"
 	"math/rand"
 	"time"
 )
