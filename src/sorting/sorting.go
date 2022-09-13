@@ -1,4 +1,4 @@
-package sorting
+package main
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	ps := players.ImportPlayers("../players.csv")
+	ps := players.ImportPlayers("../../csvFiles/leagueFour.csv")
 
 	rand.Seed(time.Now().UnixNano())
 	rand.Shuffle(len(ps), func(i, j int) {

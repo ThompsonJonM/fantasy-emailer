@@ -1,0 +1,11 @@
+{{define "tweets"}}
+    <div>
+        <h1>
+            Tweets
+        </h1>
+        <hr>
+        {{range .Tweets}}
+            {{template "tweet" .}}
+        {{end}}
+    </div>
+{{end}}

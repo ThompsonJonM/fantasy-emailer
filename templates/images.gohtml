@@ -1,0 +1,11 @@
+{{define "images"}}
+    <div>
+        <h1>
+            Player Profiles
+        </h1>
+        <hr>
+        {{range .Images}}
+            {{template "image" .}}
+        {{end}}
+    </div>
+{{end}}

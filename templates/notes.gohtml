@@ -1,0 +1,11 @@
+{{define "notes"}}
+    <div>
+        <h1>
+            News & Notes
+        </h1>
+        <hr>
+        {{range .Notes}}
+            {{template "note" .}}
+        {{end}}
+    </div>
+{{end}}
